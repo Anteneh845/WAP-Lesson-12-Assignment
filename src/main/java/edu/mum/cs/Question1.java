@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/calculate")
-public class Calculator extends HttpServlet {
+@WebServlet("/question1")
+public class Question1 extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws  IOException {
         double firstNumber = Double.parseDouble(req.getParameter("firstInput"));
